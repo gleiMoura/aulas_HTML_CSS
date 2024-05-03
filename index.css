@@ -1,8 +1,11 @@
+body{
+    margin: 0;
+}
+
 .father_box {
     width: 500px;
     height: 500px;
     background-color: black;
-
 
     display: flex;
     flex-direction: row;
@@ -13,5 +16,9 @@
 .child_box {
     width: 100px;
     height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    margin: 0px 10px 0px 10px;
     background-color: white;
 }
