@@ -1,8 +1,17 @@
 function darNome() {
     const inputValue = document.getElementById("input").value;
-    //input = document.getElementById("nome do id que você colocou no HTML").value
+    const childBigBox = document.getElementById("child_011");
 
-    //precisa de um evento para que o inputValue apareça na tela do console.
+    //template string
+    childBigBox.innerHTML = `
+        <div class="child_box" id="child_021">
+            <p>${inputValue}</p>
+        </div>
+    `;
+    
+    //sem template string
+    /* const nome = "eu tenho" + anos + "anos"
+    <p>nome</p> */
 
-    console.log(inputValue) //O elemento HTML EXISTE e estamos pegando ele.
+    console.log(inputValue)
 };
