@@ -32,6 +32,10 @@ input {
     border: 2px solid red
 }
 
+button {
+    margin: 0 10px 0 10px;
+}
+
 
 
 .child_box {
